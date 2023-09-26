@@ -19,10 +19,10 @@ tower.gun = {
     name: 'gun',
     title: 'Gun Tower',
     // Stats
-    cooldownMax: 0,
-    cooldownMin: 0,
+    cooldownMax: 0.1,
+    cooldownMin: 0.1,
     cost: 2,
-    range: 100,
+    range: 9,
     // Upgrades
     upgrades: [
         {
@@ -32,11 +32,11 @@ tower.gun = {
             name: 'machineGun',
             title: 'Machine Gun',
             // Stats
-            cooldownMax: 0,
-            cooldownMin: 0,
+            cooldownMax: 0.1,
+            cooldownMin: 0.1,
             cost: 75,
-            damageMax: 999,
-            damageMin: 99
+            damageMax: 3,
+            damageMin: 3
         }
     ]
 };
