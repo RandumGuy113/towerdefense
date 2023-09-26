@@ -19,10 +19,10 @@ tower.gun = {
     name: 'gun',
     title: 'Gun Tower',
     // Stats
-    cooldownMax: 18,
-    cooldownMin: 8,
-    cost: 25,
-    range: 3,
+    cooldownMax: 0,
+    cooldownMin: 0,
+    cost: 2,
+    range: 100,
     // Upgrades
     upgrades: [
         {
@@ -32,11 +32,11 @@ tower.gun = {
             name: 'machineGun',
             title: 'Machine Gun',
             // Stats
-            cooldownMax: 5,
+            cooldownMax: 0,
             cooldownMin: 0,
             cost: 75,
-            damageMax: 10,
-            damageMin: 0
+            damageMax: 999,
+            damageMin: 99
         }
     ]
 };
@@ -182,12 +182,12 @@ tower.sniper = {
     sound: 'sniper',
     title: 'Sniper Tower',
     // Stats
-    cooldownMax: 100,
-    cooldownMin: 60,
-    cost: 150,
-    damageMax: 100,
-    damageMin: 100,
-    range: 9,
+    cooldownMax: 0,
+    cooldownMin: 0,
+    cost: 10,
+    damageMax: 10000,
+    damageMin: 1000,
+    range: 12,
     // Methods
     drawBarrel: function() {
         stroke(0);
@@ -225,12 +225,12 @@ tower.sniper = {
             sound: 'railgun',
             title: 'Railgun',
             // Stats
-            cooldownMax: 120,
-            cooldownMin: 100,
-            cost: 300,
-            damageMax: 200,
-            damageMin: 200,
-            range: 11,
+            cooldownMax: 0,
+            cooldownMin: 0,
+            cost: 30,
+            damageMax: 200000,
+            damageMin: 2000,
+            range: 111,
             type: 'piercing',
             // Methods
             drawBarrel: function() {
