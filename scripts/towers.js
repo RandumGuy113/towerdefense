@@ -19,8 +19,8 @@ tower.gun = {
     name: 'gun',
     title: 'Gun Tower',
     // Stats
-    cooldownMax: 2,
-    cooldownMin: 2,
+    cooldownMax: 0,
+    cooldownMin: 0,
     cost: 2,
     range: 100,
     // Upgrades
