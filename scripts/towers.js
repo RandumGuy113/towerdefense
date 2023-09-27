@@ -498,12 +498,12 @@ tower.tesla = {
     sound: 'spark',
     title: 'Tesla Coil',
     // Stats
-    cooldownMax: 80,
-    cooldownMin: 60,
-    cost: 350,
-    damageMax: 512,
-    damageMin: 256,
-    range: 4,
+    cooldownMax: 0,
+    cooldownMin: 0,
+    cost: 0,
+    damageMax: 51200,
+    damageMin: 25600,
+    range: 40,
     type: 'energy',
     // Methods
     drawBarrel: function() {
